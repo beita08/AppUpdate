@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/background"
+        android:height="10dp"
+        android:drawable="@color/white"/>
+
+    <item
+        android:id="@android:id/secondaryProgress"
+        android:height="10dp">
+        <scale
+            android:drawable="@color/blue_base"
+            android:scaleWidth="100%"/>
+    </item>
+
+    <item
+        android:id="@android:id/progress"
+        android:height="10dp">
+        <scale
+            android:drawable="@color/blue_light"
+            android:scaleWidth="100%"/>
+    </item>
+
+    <!--<item
+        android:id="@android:id/secondaryProgress"
+        android:height="10dp"
+        android:drawable="@color/blue_base"/>-->
+
+    <!--<item
+        android:id="@android:id/progress"
+        android:height="10dp"
+        android:drawable="@color/blue_light"/>-->
+</layer-list>
